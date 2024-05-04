@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Aryazon</title>
+</head>
+<body>
+
+    <div data-role = "page">
+        <div data-role="header" data-theme="b">
+            <h1>Aryazon</h1>
+        </div>
+    
+
+    <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="index.html" class="ui-btn-active">Home</a></li>
+                <li><a href="about_us.html">About</a></li>
+                <li><a href="Product.html">Product</a></li>
+                <li><a href="login_register.html">Login/Register</a></li>
+            </ul>
+        </div>
+
+        <center>
+            <h3>Products</h3>
+            <div class="content">
+                <center>
+                    <div class="rows">
+                        <div>
+                            <img src="" heignt= "250px" width="250px">
+                            <img src="" heignt= "250px" width="250px">
+                            <img src="" heignt= "250px" width="250px">
+                        </div>
+                    </div>
+
+                </center>
+            </div>
+        </center>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+                <div id="quicklinks">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="about_us.html">
+                        About
+                    </a>
+                    <a href="Product.html">
+                        Product
+                    </a>
+                    <a href="login_register.html">
+                        Login/Register
+                    </a>
+
+                </div>
+
+                <p>Copyright 2022| Aryazon</p>
+            </center>
+        </div>
+        </div>
+
+    
+</body>
+</html>
